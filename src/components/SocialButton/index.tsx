@@ -20,7 +20,7 @@ export const SocialButton: React.FC<ButtonProps> = ({ link, type, name, mainColo
         <>
         <Button mainColor={mainColor} contrastColor={contrastColor} onClick={() => {window.open(link, '_blank')}}>
             <img src={type === 'github' ? gitHubIcon : linkedinIcon}/>
-            <a href={link} target="_blank" rel="noopener noreferrer" id="link">{name}</a>
+            <p>{name}</p>
         </Button>
         </>
 

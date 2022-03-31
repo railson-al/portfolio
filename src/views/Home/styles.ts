@@ -42,10 +42,10 @@ export const Wrap = styled.div`
 `;
 
 export const WrapTitle = styled.h1<WrapTitleProps>`
-    width: 100%;
+
     color: ${props => props.color};
     font-size: 3vw;
-    padding: 30px;
+    padding: 30px 50px;
     
     & span {
         color: ${colors.red};
@@ -57,7 +57,7 @@ export const WrapButtons = styled.div`
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    padding-left: 20px;
+    padding-left: 40px;
 
     & button {
         margin-left: 14px;
@@ -106,4 +106,27 @@ export const Picture = styled.div`
         font-weight: normal;
     }
 `;
+
+export const Main = styled.div`
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-around;
+    align-items: center;
+`;
+
+export const InLineItems = styled.div`
+    width: 5vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    & img {
+        margin: 0 10px;
+        cursor: pointer;
+    }
+
+
+`;
+
 

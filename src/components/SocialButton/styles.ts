@@ -24,12 +24,12 @@ export const Button = styled.button<StyledButtonProps>`
         border-color: ${props => props.mainColor};
         transition: ease-in-out, 100ms;
 
-        a {
+        p {
             color: ${props => props.mainColor}; 
         }
     }
 
-    & a {
+    & p {
         text-decoration: none;
         color: ${props => props.contrastColor};
     }
